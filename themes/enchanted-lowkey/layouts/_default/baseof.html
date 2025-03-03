@@ -6,14 +6,10 @@
 
   <body class="max-w-screen-md mx-auto px-2.5">
     <div class="header">
-      {{ partial "header/index" . }}
-      {{ partial "header/theme-button" . }}
+      {{ partial "header/index" . }} {{ partial "header/theme-button" . }}
     </div>
-  
-    <main id="content">
-      {{- block "main" . -}}
-      {{- end }}
-    </main>
+
+    <main id="content">{{- block "main" . -}} {{- end }}</main>
 
     {{- partial "footer/index" . -}}
   </body>

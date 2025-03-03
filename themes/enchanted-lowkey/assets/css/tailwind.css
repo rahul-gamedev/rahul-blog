@@ -350,7 +350,11 @@
   }
 
   #content .taxonomy-list a {
-    @apply font-normal no-underline text-base text-gray-800 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 py-2 px-3 rounded-lg;
+    @apply font-normal no-underline text-base text-gray-800 dark:text-gray-400 bg-gray-100 dark:bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 py-2 px-3 rounded-lg;
+  }
+
+  #content .taxonomy-list a.active {
+    @apply dark:bg-gray-100 bg-gray-800;
   }
 
   #content .tags-list {

@@ -1,0 +1,31 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[main]]
+    identifier = "posts"
+    name = "blog"
+    url = "/posts"
+    weight = 2
+
+[[main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 3
+    
+# Social Media Configuration
+
+[[social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/rahulramesh-/"
+    weight = 1
+
+[[social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://www.github.com/rahul-gamedev"
+    weight = 2
